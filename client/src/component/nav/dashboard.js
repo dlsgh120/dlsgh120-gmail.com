@@ -33,6 +33,7 @@ import Login from '../user/login';
 import Register from '../user/register';
 import Todos from '../../component/todos/todos';
 import Profile from '../../component/user/profile';
+import Github from '../../component/etc/github';
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import Avatar from '@material-ui/core/Avatar';
 
@@ -221,6 +222,7 @@ const Dashboard = (props) =>{
             <Route path='/register' component={Register} />
             <Route path='/todos' component={Todos} />
             <Route path='/profile' component={Profile} />
+            <Route path='/github' component={Github} />
             </Switch>
               </Paper>
             </Grid>

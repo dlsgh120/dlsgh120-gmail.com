@@ -3,6 +3,7 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import HomeIcon from '@material-ui/icons/Home';
+import GitHubIcon from '@material-ui/icons/GitHub';
 import ListAltIcon from '@material-ui/icons/ListAlt';
 import AssignmentIndIcon from '@material-ui/icons/AssignmentInd';
 
@@ -61,6 +62,15 @@ class MainListItems extends Component{
       <ListItemText primary="Profile" />
     </ListItem>
     </Link>}
+
+    <Link to="/github" style={{"textDecoration": "none"}}>
+    <ListItem button>
+      <ListItemIcon>
+       <GitHubIcon />
+      </ListItemIcon>
+      <ListItemText primary="Github" />
+    </ListItem>
+    </Link>
   </div>
     );
   }
