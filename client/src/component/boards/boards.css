@@ -1,0 +1,151 @@
+.body-container{
+   display: flex;
+}
+.body-center{
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+.table-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.board-write{
+    margin-left: auto;
+}
+.table2{
+   width:100%;
+    border:1px solid #e5e5e5;
+    border-collapse: collapse;
+    border-spacing: 2px;
+}
+.table2 thead th{
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+.table2 td, .table2 th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+.text-center {
+    text-align: center!important;
+    width:10%;
+}
+.text-center2{
+    text-align: center!important;
+    width: 50%;
+}
+
+th{
+    font-weight: bold;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;   
+}
+tr:hover{
+    background-color: #e5e5e5;
+}
+.page-container{
+    margin-top:20px;
+    display: flex;
+}
+.page-center{
+    margin-left: auto;
+    margin-right: auto;
+}
+/* search */
+
+.search-container{
+    width: 30%;
+}
+
+.search{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom:30px;
+    vertical-align: middle;
+}
+
+.tableInfo{
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+    margin-top:30px;
+}
+.tableInfo-center{
+   margin-left:auto;
+   font-size: 13px;
+}
+.search-sub{
+    display: flex;
+    margin-top:5px;
+}
+.clear-right{
+    margin-left:auto;
+}
+
+.close-button{
+    font-size: 13px;
+    border:none;
+    background-color: white;
+}
+
+.read-container{
+    width:100%;
+}
+.board-read{
+    width: 100%;
+}
+.board-read-logo{
+    font-size: 26px;
+    font-weight: 600;
+}
+.board-read-title{
+    border-top:1px solid #e5e5e5;
+    border-bottom:2px solid gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.board-read-content-sub{
+ font-size: 13px;
+ display: flex;
+ flex-wrap: wrap;
+ margin-top:20px;
+
+}
+.board-read-content-sub p{
+    margin-left: auto;
+}
+.board-read-content{
+    padding-bottom: 20px;
+    border-bottom:1px solid #e5e5e5;   
+    margin-bottom:20px;
+}
+
+.board-read-back{
+    display: flex;
+}
+
+.delete-button{
+    margin-left:auto;
+    display: flex;
+}
+
+.delete-button-p{
+    cursor: pointer;
+    color: black;
+}
+.delete-button-p:hover{
+    border-bottom:1px solid;
+}
