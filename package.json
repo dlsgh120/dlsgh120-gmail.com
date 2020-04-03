@@ -4,6 +4,7 @@
   "description": "react and express",
   "main": "app.js",
   "scripts": {
+    "client-install": "npm install --prefix client",
     "start": "node server.js",
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
@@ -24,5 +25,5 @@
     "react-data-table-component": "^6.3.1",
     "styled-components": "^5.0.1"
   },
-  "devDependencies": {}
+  "devDependencies": {} 
 }
